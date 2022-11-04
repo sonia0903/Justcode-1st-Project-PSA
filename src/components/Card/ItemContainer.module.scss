@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  color: #666;
+}
+body {
+  background-color: #fffef2;
+}
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.toner-container {
+  width: 30%;
+  margin: 20px;
+  padding-top: 20px;
+  background-color: #f6f5e8;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.toner-container img {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.toner-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.toner-info h4 {
+  margin: 0;
+}
+.toner-info span {
+  margin-left: 3px;
+}
+.Product-detail-wrapper > div {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #d5d4c9;
+  display: flex;
+}
+.Product-detail-wrapper > div h2 {
+  margin-bottom: 15px;
+  color: #333;
+  margin-right: 30px;
+}
+.Product-detail-wrapper > div p {
+  margin-bottom: 15px;
+  color: #666;
+}
+.Add-to-cart-button {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  padding: 20px 15px;
+  margin-top: 15px;
+}
+.Add-to-cart-price {
+  background-color: transparent;
+  color: #fffef2;
+}
